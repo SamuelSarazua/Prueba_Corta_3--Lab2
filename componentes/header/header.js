@@ -1,4 +1,4 @@
-function header() {
+function mostrarMenu() {
     let header = document.createElement("div");
     header.className = "header";
    
@@ -20,4 +20,4 @@ function header() {
     return header;
 }
 
-export { header };
+export { mostrarMenu };

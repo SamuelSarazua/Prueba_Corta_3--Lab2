@@ -1,0 +1,73 @@
+.div_prin {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+
+    display: grid;
+    grid-template-rows: auto auto auto; 
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.div_prin img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.div_prin h2 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.precio-container {
+    display: flex;  
+    justify-content: space-between;  
+    width: 100%;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.div_prin h1 {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    text-align: left;
+}
+
+.div_prin .div_add {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap; 
+}
+
+.div_prin .div_add:hover {
+    background-color: red;
+    color: white;
+}
+
+.seleccionado {
+    background-color: lightgreen !important; 
+    transition: background-color 0.3s ease;
+}
